@@ -60,6 +60,12 @@ if (require.main === module) {
   console.log("multiply 4 5 =", calculate("multiply 4 5"));
 }
 
+<<<<<<< HEAD
 function Hieu(){
   console.log("hieu desu");
 }
+=======
+function huyTestCommitCalculator() {
+  return console.log("LE MINH HUY!");
+}
+>>>>>>> 222334206dfa51f5df1edcaadc3aed55c8a5dac6

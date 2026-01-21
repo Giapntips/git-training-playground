@@ -6,8 +6,13 @@ const users = [
   { id: 2, name: "Bao Tran", email: "bao.tran@example.com" },
 ];
 
+// Cuong Test function
+export function getUsers_Cuong() {
+  return users;
+}
+
 // Lấy toàn bộ danh sách user
-export function getUsers() {
+export function getUsers_() {
   return users;
 }
 
@@ -68,11 +73,18 @@ if (require.main === module) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 function Hieu(){
   console.log("hieu desu");
 }
 =======
+=======
+function huyTestCommit() {
+  return console.log("LE MINH HUY!");
+}
+
+>>>>>>> 222334206dfa51f5df1edcaadc3aed55c8a5dac6
 export function giap() {
   return "Giapnt test";
 }
