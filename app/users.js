@@ -66,3 +66,8 @@ if (require.main === module) {
   deleteUser(1);
   console.log("After delete:", getUsers());
 }
+
+
+function Hieu(){
+  console.log("hieu desu");
+}
