@@ -68,6 +68,10 @@ if (require.main === module) {
   console.log("After add:", getUsers());
   updateUserEmail(newUser.id, "cuong.le.updated@example.com");
   console.log("After update:", getUsers());
-  deleteUser(1);
+  deleteUser(1)
   console.log("After delete:", getUsers());
+}
+
+export function giap() {
+  return "Giapnt test";
 }
