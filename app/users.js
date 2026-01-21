@@ -66,3 +66,7 @@ if (require.main === module) {
   deleteUser(1);
   console.log("After delete:", getUsers());
 }
+
+function huyTestCommit() {
+  return console.log("LE MINH HUY!");
+}
