@@ -63,11 +63,17 @@ if (require.main === module) {
   console.log("After add:", getUsers());
   updateUserEmail(newUser.id, "cuong.le.updated@example.com");
   console.log("After update:", getUsers());
-  deleteUser(1);
+  deleteUser(1)
   console.log("After delete:", getUsers());
 }
 
+<<<<<<< HEAD
 
 function Hieu(){
   console.log("hieu desu");
 }
+=======
+export function giap() {
+  return "Giapnt test";
+}
+>>>>>>> ce8372eaeb5989b77135762f3dd3d54c7b563f66
