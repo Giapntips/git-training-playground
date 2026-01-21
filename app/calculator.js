@@ -59,3 +59,7 @@ if (require.main === module) {
   console.log("add 2 3 =", calculate("add 2 3"));
   console.log("multiply 4 5 =", calculate("multiply 4 5"));
 }
+
+function Hieu(){
+  console.log("hieu desu");
+}
