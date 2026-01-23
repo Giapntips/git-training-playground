@@ -75,3 +75,7 @@ if (require.main === module) {
 export function giap() {
   return "Giapnt test";
 }
+
+export function huy() {
+  return "Huy test branch";
+}
