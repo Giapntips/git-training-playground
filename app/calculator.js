@@ -37,6 +37,7 @@ export function calculate(expression) {
 
   if (Number.isNaN(a) || Number.isNaN(b)) {
     throw new Error("Operands must be numbers");
+    // throw new Error("Operands must be numbers");
   }
 
   switch (op) {
@@ -56,6 +57,6 @@ export function calculate(expression) {
 // Đoạn demo nhỏ để chạy nhanh bằng node
 if (require.main === module) {
   console.log("Demo calculator:");
-  console.log("add 2 3 =", calculate("add 2 3"));
+  console.log("add 2 3 =", calculate("add 6 9"));
   console.log("multiply 4 5 =", calculate("multiply 4 5"));
 }
