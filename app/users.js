@@ -79,3 +79,7 @@ export function giap() {
 export function huy() {
   return "Huy test branch";
 }
+
+export function huyTestBranchWithDescription() {
+  return "Huy test branch with description";
+}
