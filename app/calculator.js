@@ -1,5 +1,9 @@
 // app/calculator.js
 
+// Delete
+// Edit: Test 2 -> 3
+// Add: Test git
+
 // Các hàm toán học cơ bản
 export function add(a, b) {
   return a + b;
