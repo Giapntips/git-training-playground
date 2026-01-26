@@ -65,6 +65,8 @@ export function deleteUser(id) {
 if (require.main === module) {
   console.log("Initial users:", getUsers());
   const newUser = addUser("Cuong Le", "cuong.le@example.com");
+  console.log("admin users:", getUsers());
+  const admin = addUser("Huy Le", "admin@example.com");
   console.log("After add:", getUsers());
   updateUserEmail(newUser.id, "cuong.le.updated@example.com");
   console.log("After update:", getUsers());
@@ -74,4 +76,12 @@ if (require.main === module) {
 
 export function giap() {
   return "Giapnt test";
+}
+
+export function huy() {
+  return "Huy test branch";
+}
+
+export function huyTestBranchWithDescription() {
+  return "description";
 }
