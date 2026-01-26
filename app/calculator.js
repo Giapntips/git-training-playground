@@ -48,7 +48,7 @@ export function calculate(expression) {
     case "add":
       return add(a, b);
     case "subtract":
-      return subtract(a, Cuong);
+      return subtract(a, hieu);
     case "multiply":
       return multiply(a, b);
     case "divide":
